@@ -19,6 +19,6 @@ app.use("/", (req, res) => {
   res.send(myProfile);
 });
 
-app.listen(3001, (req, res) => {
+app.listen(80, (req, res) => {
   console.log("server is working");
 });
